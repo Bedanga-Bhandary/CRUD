@@ -1,0 +1,18 @@
+npm init-to make the package.json file which has the description of everything
+npm i- to install packages// morgan is used to log messages everytime we make requests// morgan is a Node. js and Express middleware to log HTTP requests and errors, and simplifies the process
+                            nodemon: allows to restart the server automatically when we make changes in the project 
+                            ejs: template engine... alows to create dynamic html
+                            body-parser: allows us searalize the data and access the data using body property
+                            dotenv: allows you to seperate secret friles from the source code, this is usefull in collaborative environment where you may not want to share your database login credential with other people, instead you can share your source code so that other use their own .env file to login 
+                            mongoose: to connect with mongodb database
+                            axios: Makes easy toi maken a request in express application 
+MVC-Module View Controller-seperates
+    View- to put all the html files 
+    Module- to work with mongodb data: performs the datavalidation, processing, data creation, scheme and so on 
+    Controller- user requests for resources from the server, create diffrent functions to send resources to the user
+server.js has http servers
+config.env to specify port and its vaklue
+/dotenv allows you to share your code with other people, this comes in handy in an  collaboratiove environment: insted of sharing your credentyials you can share the source code 
+ body-parser: is an npm library used to process data sent through an HTTP request body. It exposes four express middlewares for parsing text, JSON, url-encoded and raw data set through an HTTP request body. These middlewares are functions that process incoming requests before they reach the target controller.
+ View Engine: works inside the application for rendering HTML page to the browser or to the user. It can contain HTML tags, server controls and some programming language.Nov 29, 2011 
+ejs:- embedded javascript templating used accept of html
